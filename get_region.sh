@@ -78,10 +78,10 @@ if test -t 1; then
 fi
 
 # Only allow script to run as
-if [ "$(whoami)" != "root" ]; then
-  echo -e "${RED}This script needs to be run as root. Try again with 'sudo $0'${NC}"
-  exit 1
-fi
+# if [ "$(whoami)" != "root" ]; then
+#   echo -e "${RED}This script needs to be run as root. Try again with 'sudo $0'${NC}"
+#   exit 1
+# fi
 
 mkdir -p /opt/piavpn-manual
 # Erase old latencyList file
