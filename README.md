@@ -10,6 +10,14 @@ sudo ./run_setup.sh
 
 The scripts were written so that they are easy to read and to modify. The code also has a lot of comments, so that you find all the information you might need. We hope you will enjoy forking the repo and customizing the scripts for your setup!
 
+## Fork
+
+This fork have
+
+  * remove useless root user check
+  * modify reading path to ca cert to dynamic path : https://github.com/pia-foss/manual-connections/pull/90
+  * save port, payload and signature in files to be readable by anything else than these scripts : https://github.com/pia-foss/manual-connections/pull/91
+
 ## Table of Contents
 
 - [Dependencies](#dependencies)
